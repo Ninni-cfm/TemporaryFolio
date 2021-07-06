@@ -1,0 +1,207 @@
+@font-face {
+    font-family: 'Athene';
+    font-weight: lighter;
+    src: url(../fonts/Athene.otf) format("opentype");
+}
+
+@font-face {
+    font-family: 'OpenSans-Regular', sans-serif;
+    src: url('../fonts/OpenSans-Regular.ttf'), url('../fonts/OpenSans-SemiBold.ttf'), url('../fonts/OpenSans-Bold.ttf'), url('../fonts/OpenSans-ExtraBold.ttf')
+}
+
+body {
+    margin: 0;
+}
+
+section {
+    /* margin: 0; */
+    font-family: 'OpenSans-Regular', sans-serif;
+}
+
+
+/* Farben: #002a5a, #F4C4C4, #282b29, #7d2222, #DEB873, #D2D2D2, #1d8883 */
+
+h1 {
+    margin: 0;
+    font-family: 'Athene', serif;
+    font-weight: 300;
+    font-size: 8em;
+    text-transform: uppercase;
+}
+
+h2 {
+    margin: 0;
+    font-family: 'Athene', serif;
+    font-weight: 300;
+    font-size: 3em;
+    text-transform: uppercase;
+    padding-bottom: 200px;
+}
+h5 {
+    margin: 0;
+    font-weight: 200;
+    font-size: 1.3em;
+}
+h6 {
+    margin: 0;
+    padding: 80px;
+}
+p {
+    font-size: 1.2em;
+}
+
+/* ===================================================================================================================== */
+.temporary {
+    background-color:#EFE8D7;
+    color: #002a5a;
+    text-align: center;
+}
+.temporary header {
+    display: flex;
+    border-bottom: 2px solid #002a5a;
+
+}
+.temporary header p {
+    width:50%;
+    text-align: left;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+.temporary header p:last-of-type {
+    text-align: right;
+    padding-right: 8%;
+}
+.temporary h1 {
+    text-align: center;
+    margin: 0 20%;
+    border-bottom: 3px solid #002a5a;
+}
+.temporary img {
+    width: 30%;
+    display: block;
+    margin: 3% auto 2%; 
+}
+.temporary h5 {
+    width: 30%;
+    text-align: left;
+    text-transform: uppercase;
+    padding-bottom: 10%;
+    margin: 0 auto; 
+}
+.temporary span {
+    font-family: 'Athene', serif;
+    font-weight: 500;
+}
+
+/* ===================================================================================================================== */
+.release {
+    background: #F4C4C4;
+    color: #282b29;
+    padding-bottom: 50px;
+}
+.release p {
+    padding: 0 8%;
+    padding-left: 60%;
+    line-height: 2;
+}
+.release table {
+    width: 35%;
+    margin: 100px 8% 0 auto;
+    border-collapse: collapse;
+}
+.release tr, th  {
+    border-bottom: 1px solid #282b29;
+}
+.release th {
+    text-align: right;    
+}
+.release td {
+    padding: 30px 0;
+}
+.release td:nth-child(1) {
+    width: 10%;
+    font-size: 1em;
+}
+.release td:nth-child(2) {
+    font-size: 1.2em;
+}
+.release td:nth-child(3) {
+    text-align: right;
+    width: 30%;
+    font-size: 1em;
+}
+.release img{
+    display: block;
+    width:10%;
+    margin: 5% 8% 5% auto;
+}
+
+/* ===================================================================================================================== */
+.works {
+    background: #DEB873;
+    color: #7d2222;
+    padding-bottom: 5%;
+}
+.works h1,
+.works h6 {
+    text-align: right;
+}
+.works p {
+    width: 40%;
+    padding-left: 8%;
+    line-height: 2;
+}
+.works div {
+    height: 45vmin;
+    margin: 200px 8%;
+}
+.works div:nth-of-type(even) {
+    text-align: right;
+}
+.works div:nth-of-type(1) {
+    background: url(../img/bg-marconatto-1.jpg) right/contain no-repeat;
+}
+.works div:nth-of-type(2) {
+    background: url(../img/kathe_cover-1.jpg) left/contain no-repeat;
+}
+.works div:nth-of-type(3) {
+    background: url(../img/bg-nicole-1.jpg) right/contain no-repeat;
+}
+.works div:nth-of-type(4) {
+    background: url(../img/boa_cover-1.jpg) left/contain no-repeat;
+}
+
+/* ===================================================================================================================== */
+.contact {
+    background: #D2D2D2;
+    color: #1d8883;
+    padding-bottom: 5%;
+}
+
+.contact p {
+    width: 25%;
+    margin: 5% auto; 
+    font-family: 'Open Sans', sans-serif;
+    line-height: 2;
+}
+.contact ul {
+    margin-bottom: 0;
+    list-style: none;
+    margin-right: 8%;
+    font-weight: 300;
+    padding-bottom: 40px;
+}
+.contact li {
+    text-align: right;
+    padding-bottom: 15px;
+}
+
+.contact li a {
+    font-size: 1.5em;
+    text-decoration: none;
+    color: #1d8883;
+    line-height: 1.2;
+}
+
+/* ===================================================================================================================== */
+/* That's all, folks! */
